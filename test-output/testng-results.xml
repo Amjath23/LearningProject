@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-26T19:19:26 IST" name="Default suite" finished-at="2024-09-26T19:19:32 IST" duration-ms="5548">
+  <suite started-at="2024-09-27T11:05:01 IST" name="Suite" finished-at="2024-09-27T11:05:06 IST" duration-ms="5259">
     <groups>
     </groups>
-    <test started-at="2024-09-26T19:19:26 IST" name="Default test" finished-at="2024-09-26T19:19:32 IST" duration-ms="5548">
+    <test started-at="2024-09-27T11:05:01 IST" name="Test" finished-at="2024-09-27T11:05:06 IST" duration-ms="5259">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@740cae06]" started-at="2024-09-26T19:19:26 IST" name="setup" finished-at="2024-09-26T19:19:31 IST" duration-ms="5416" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@740cae06]" started-at="2024-09-27T11:05:01 IST" name="setup" finished-at="2024-09-27T11:05:06 IST" duration-ms="5176" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 122
@@ -72,7 +72,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@740cae06]" started-at="2024-09-26T19:19:31 IST" name="loginTest" data-provider="LoginData" finished-at="2024-09-26T19:19:31 IST" duration-ms="0" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@740cae06]" started-at="2024-09-27T11:05:06 IST" name="loginTest" data-provider="LoginData" finished-at="2024-09-27T11:05:06 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "Utilities.ExcelUtil.getRowCount(String)" because "this.excelUtil" is null]]>
@@ -121,11 +121,11 @@ at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedExce
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@740cae06]" started-at="2024-09-26T19:19:32 IST" name="tearDown" finished-at="2024-09-26T19:19:32 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@740cae06]" started-at="2024-09-27T11:05:06 IST" name="tearDown" finished-at="2024-09-27T11:05:06 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
